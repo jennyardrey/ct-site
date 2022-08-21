@@ -142,7 +142,7 @@ header h2 {
     top: -100%; left: 0; right: 0; bottom: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
-    
+    min-height: auto;
   }
   .nav-wrapper {
     position: relative;
@@ -152,7 +152,6 @@ header h2 {
   }
   nav {
     text-align: left;
-    margin-left: 25%;
   }
   nav a {
     position: relative;
@@ -160,9 +159,9 @@ header h2 {
     color: #fff;
     font-size: 2em;
     display: inline-block;
-    margin-top: 1.25em;
     transition: color 0.2s ease-in-out;
     letter-spacing: 1px;
+    margin: 1rem;
   }
   nav a:before {
     content: '';
